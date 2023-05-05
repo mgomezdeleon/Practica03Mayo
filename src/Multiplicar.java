@@ -2,18 +2,33 @@ public class Multiplicar {
 
 	public static void main(String[] args) {
 		
-		// Práctica Tablas de Multiplicar
+		// Prï¿½ctica Tablas de Multiplicar
 			saludar();
 			
 		//*****************************************
-		// Crear una función que imprima las 10 tablas de 
+		// Crear una funciï¿½n que imprima las 10 tablas de 
 		// multiplicar
 		//*****************************************
+			
+		multiplicar();
 		
 		
 	}
 	public static void saludar() {
 		
-		System.out.println("Buenos tardes 1ºde Dam!!!");
+		System.out.println("Buenos tardes 1ï¿½de Dam!!!");
+	}
+	public static void multiplicar() {
+		String linea="";
+		int numero=10;
+		
+		for(int i=10;i>=1 ; i--) {
+		
+			for (numero=10; numero>=1;numero--) {
+				linea+=(numero+ " * "+i +" = " + (i*numero)+ "\t");
+			}System.out.println(linea);
+			linea="";
+		}
+		
 	}
 }

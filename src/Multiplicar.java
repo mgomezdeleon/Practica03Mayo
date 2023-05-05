@@ -16,7 +16,7 @@ public class Multiplicar {
 	}
 	public static void saludar() {
 		
-		System.out.println("Buenos tardes 1�de Dam!!!");
+		System.out.println("Buenos tardes Primero de Dam!!!");
 	}
 	public static void multiplicar() {
 		String linea="";

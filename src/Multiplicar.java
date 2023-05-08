@@ -9,7 +9,7 @@ public class Multiplicar {
 		// Crear una función que imprima las 10 tablas de 
 		// multiplicar
 		//*****************************************
-		
+		imprimirTablasDeMultiplicar();
 		
 	}
 	public static void saludar() {

@@ -9,11 +9,11 @@ public class Multiplicar {
 		// Crear una funci�n que imprima las 10 tablas de 
 		// multiplicar
 		//*****************************************
-		int tabla = 10;
-		System.out.println("Tabla del " + tabla);
-		for (int i = 0; i <= 10; i++) {
-			System.out.println(tabla + " * " + i + " = " + (tabla * i));
-		}
+			int tabla = 10;
+			System.out.println("Tabla del " + tabla);
+			for (int i = 0; i <= 10; i++) {
+				System.out.println(tabla + " * " + i + " = " + (tabla * i));
+			}
 	}
 	public static void saludar() {
 		

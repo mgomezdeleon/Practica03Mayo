@@ -10,7 +10,18 @@ public class Multiplicar {
 		// multiplicar
 		//*****************************************
 		
+		tabla();
 		
+	}
+	public static void tabla() {
+		for (int i=1; i<11;i++) {
+			System.out.println("----------------------------------------------------------------------\n"
+					+ "La tabla del:" +i+ "");
+			for (int j=1; j<11;j++) {
+				System.out.println(i+"*"+j+"="+ i*j);
+				
+			}
+			}
 	}
 	public static void saludar() {
 		
